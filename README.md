@@ -1,4 +1,4 @@
-# IronicBadger/docker-sanoid-builder
+# whalecoiner/docker-sanoid-builder
 
 * [Sanoid upstream project](https://github.com/jimsalterjrs/sanoid)
   * Sanoid is a policy-driven snapshot management tool for ZFS filesystems. When combined with the Linux KVM hypervisor, you can use it to make your systems functionally immortal.
