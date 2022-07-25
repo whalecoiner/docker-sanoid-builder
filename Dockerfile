@@ -22,6 +22,6 @@ RUN apt update && apt install -y \
     ln -s packages/debian . && \
     dpkg-buildpackage -uc -us
     && \
-    dpkg-buildpackage -uc -us && \
+    # dpkg-buildpackage -uc -us && \
     mkdir /build && \
     cp *.deb /build/sanoid.deb
