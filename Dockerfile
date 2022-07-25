@@ -21,7 +21,7 @@ RUN apt update && apt install -y \
     git checkout $(git tag | grep "^v" | tail -n 1) && \
     ln -s packages/debian . && \
     dpkg-buildpackage -uc -us
-  # && \
-  # dpkg-buildpackage -uc -us && \
-  # mkdir /build && \
-  # cp *.deb /build/sanoid.deb
+    && \
+    dpkg-buildpackage -uc -us && \
+    mkdir /build && \
+    cp *.deb /build/sanoid.deb
