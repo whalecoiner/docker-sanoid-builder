@@ -23,5 +23,5 @@ RUN apt update && apt install -y \
     dpkg-buildpackage -uc -us
     && \
     # dpkg-buildpackage -uc -us && \
-    mkdir /build && \
-    cp *.deb /build/sanoid.deb
+    # mkdir /build && \
+    mv *.deb /build/sanoid.deb
